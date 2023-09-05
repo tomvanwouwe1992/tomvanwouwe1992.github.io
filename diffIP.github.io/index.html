@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Diffusion Inertial Poser: Human Motion Reconstruction from Arbitrary Sparse IMU Configurations.">
+  <meta name="keywords" content="IMU, MOCAP">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diffusion Inertial Poser: Human Motion Reconstruction from Arbitrary Sparse IMU Configurations</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://profiles.stanford.edu/tom-van-wouwe">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://www.biorxiv.org/content/10.1101/2023.08.07.552222v1">
+            Musculoskeletal Optimization
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Diffusion Inertial Poser: Human Motion Reconstruction from Arbitrary Sparse IMU Configurations</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://profiles.stanford.edu/tom-van-wouwe">Tom Van Wouwe</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://sites.google.com/site/lsw9021/">Seunghwan Lee</a><sup>1</sup>,</span>
+			<span class="author-block">
+              <a href="https://sites.google.com/site/lsw9021/">Antoine Falisse</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://sites.google.com/site/lsw9021/">Scott Delp</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://profiles.stanford.edu/c-karen-liu">C. Karen Liu</a><sup>1</sup>,</span>
+            </span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Stanford University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2308.16682"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+	  <img>
+	    <source	src="./static/images/RepresentativeFigure.png">
+	  </img>
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">Diffusion Inertial Poser: MoCap from arbitrary sparse (between 1 and 12) IMUs
+      </h2>
+    </div>
+  </div>
+</section>
+
+<body>
+    <div class="container">
+        <!-- background image -->
+        <img class="gfg"
+             src="./static/images/RepresentativeFigure.jpg">
+        <!-- title and tag line with button -->
+
+    </div>
+</body>
+
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+			<p>
+				Motion capture from a limited number of inertial measurement units (IMUs) has important applications in health, human performance, and virtual reality.
+			</p>	
+			<p>		
+				Real-world limitations and application-specific goals dictate different IMU configurations (i.e., number of IMUs and chosen attachment body segments), trading off accuracy and practicality. 
+				Although recent works were successful in accurately reconstructing whole-body motion from six IMUs, these systems only work with a specific IMU configuration.
+			</p>
+			<p>
+				Here we propose a single diffusion generative model, Diffusion Inertial Poser (DiffIP), which reconstructs human motion in real-time from arbitrary IMU configurations. 
+				We show that DiffIP has the benefit of flexibility with respect to the IMU configuration while being as accurate as the state-of-the-art for the commonly used six IMU configuration. 
+				Our system enables selecting an optimal configuration for different applications without retraining the model. 
+				For example, when only four IMUs are available, DiffIP found that the configuration that minimizes errors in joint kinematics instruments the thighs and forearms. 
+				However, global translation reconstruction is better when instrumenting the feet instead of the thighs.
+			</p>
+			<p>
+				Although our approach is agnostic to the underlying model, we built DiffIP based on physiologically realistic musculoskeletal models to enable use in biomedical research and health applications.
+			</p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src=  "https://www.youtube.com/embed/_sPGtY8ENrI?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{vanwouwe2023DiffIP,
+  author    = {Van Wouwe, Tom and Lee, Seunghwan and Falisse, Antoine and Delp, Scott and Liu, C. Karen},
+  title     = {Diffusion Inertial Poser: Human Motion Reconstruction from Arbitrary Sparse IMU Configurations},
+  journal   = {ArXiv},
+  year      = {2023},
+}</code></pre>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            The design of this website was built by borrowing the Nerfies <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
